@@ -1,5 +1,5 @@
 class GuessingGame {
-    constructor(min, max, result) {
+    constructor() {
         this.min = min;
         this.max = max;
         this.result = result;
@@ -11,7 +11,7 @@ class GuessingGame {
     }
 
     guess() {
-        this.result = ((this.min + this.min) / 2);
+        this.result = ((this.min + this.max) / 2);
         return this.result;
     }
 
